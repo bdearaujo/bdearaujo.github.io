@@ -1,81 +1,15 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Snake Charmer
+description: Physically Enabling Virtual Objects (TEI 2016)
 img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+importance: 1
+category: research
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Augmented and virtual reality have the potential of being indistinguishable from the real world. Holographic displays, including head mounted units, support this vision by creating rich stereoscopic scenes, with objects that appear to float in thin air - often within arm's reach. However, one has but to reach out and grasp nothing but air to destroy the suspension of disbelief. Snake-charmer is an attempt to provide physical form to virtual objects by revisiting the concept of Robotic Graphics or Encountered-type Haptic interfaces with current commodity hardware. By means of a robotic arm, Snake-charmer brings physicality to a virtual scene and explores what it means to truly interact with an object. We go beyond texture and position simulation and explore what it means to have a physical presence inside a virtual scene. We demonstrate how to render surface characteristics beyond texture and position, including temperature; how to physically move objects; and how objects can physically interact with the user's hand. We analyze our implementation, present the performance characteristics, and provide guidance for the construction of future physical renderers.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ACM DL Link: https://dl.acm.org/doi/10.1145/2839462.2839484
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Video: https://www.youtube.com/watch?v=I3ue35F3CSg&ab_channel=BrunoDeAraujo

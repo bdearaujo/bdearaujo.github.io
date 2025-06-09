@@ -1,81 +1,23 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: GhostID
+description: Enabling Non-Persistent User Differentiation in Frequency-Division Capacitive Multi-Touch Sensors
 img: assets/img/9.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: tactual
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+GhostID: Enabling Non-Persistent User Differentiation in Frequency-Division Capacitive Multi-Touch Sensors
+Sidharth Sahdev, Clifton Forlines, Ricardo Jota, Bruno De Araujo, Braon Moseley, Jonathan Deber, Steven Leonard Sanders, Darren Leigh, Daniel Wigdor
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+CHI'17: ACM CHI Conference on Human Factors in Computing Systems
+Session: Design Frameworks
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Abstract:
+Current touch devices are adept at tracking finger touches, but cannot distinguish if multiple touches are caused by different fingers on a single hand, by fingers from both hands of a single user, or by different users. This limitation significantly reduces the possibilities for interaction techniques in touch interfaces. We present GhostID, a capacitive sensor that can differentiate the origins of multiple simultaneous touches. Our approach analyzes the signal ghosting, already present as an artifact in a frequency-division touch controller, to differentiate touches from the same hand or different hands of a single user (77% reliability at 60 fps) or from two different users (95% reliability at 60 fps). In addition to GhostID, we also develop a framework of user-differentiation capabilities for touch input devices, and illustrate a set of interaction techniques enabled by GhostID.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+DOI: https://dl.acm.org/doi/10.1145/3025453.3025719
+WEB: http://chi2017.acm.org/
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Video: https://www.youtube.com/watch?v=Dqh5lnkC2jc&ab_channel=ACMSIGCHI
