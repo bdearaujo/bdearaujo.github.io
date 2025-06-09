@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: User interfaces and sensing explorations.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [research, tactual]
 horizontal: false
 ---
