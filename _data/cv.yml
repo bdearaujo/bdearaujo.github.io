@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Bruno De Araujo
- #   - name: Date of Birth
- #     value: 8th June 1978
     - name: Languages
       value: English, French, Portuguese
 
