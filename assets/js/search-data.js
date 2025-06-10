@@ -32,12 +32,12 @@ ninja.data = [{
           },
         },{id: "projects-prism-handlebar",
           title: 'PRISM Handlebar',
-          description: "Tactual PRISM Motorcycle Handlebar (Jan&#39;18)",
+          description: "Tactual PRISM Motorcycle Handlebar",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-snake-charmer",
           title: 'Snake Charmer',
-          description: "Physically Enabling Virtual Objects (TEI 2016)",
+          description: "Physically Enabling Virtual Objects",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-hammer-time",
