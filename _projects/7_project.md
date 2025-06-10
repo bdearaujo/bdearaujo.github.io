@@ -14,7 +14,6 @@ Rorik Henrikson, Bruno De Araujo, Fanny Chevalier, Karan Singh, Ravin Balakrishn
 Abstract:
 We present Storeoboard, a system for stereo-cinematic conceptualization, via storyboard sketching directly in stereo. The resurgence of stereoscopic media has motivated filmmakers to evolve a new stereo-cinematic vocabulary, as many principles for stereo 3D film are unique. Concepts like plane separation, parallax position, and depth budgets are missing from early planning due to the 2D nature of existing storyboards. Storeoboard is the first of its kind, allowing filmmakers to explore, experiment and conceptualize ideas in stereo early in the film pipeline, develop new stereo-cinematic constructs and foresee potential difficulties. Storeoboard is the design outcome of interviews and field work with directors, stereographers, and storyboard artists. We present our design guidelines and implementation of a tool combining stereo-sketching, depth manipulations and storyboard features into a coherent and novel workflow. We report on feedback from storyboard artists, industry professionals and the director of a live action, feature film on which Storeoboard was deployed.
 
-ACM DL: https://dl.acm.org/doi/10.1145/2858036.2858079
-DOI: https://dl.acm.org/doi/10.1145/2858036.2858079
+<a href="https://dl.acm.org/doi/10.1145/2858036.2858079">ACM DL Link</a>
 
-Video: https://www.youtube.com/watch?v=l6_jJeKfQWY
+<a href="https://www.youtube.com/watch?v=l6_jJeKfQWYE">YouTube Video</a>
